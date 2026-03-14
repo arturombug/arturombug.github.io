@@ -11,12 +11,10 @@ Welcome to my blog! Here I share what I've learned, discoveries, frustrations, a
 <ul class="blog-list">
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <span style="color:#666;font-size:0.9em">({{ post.date | date: "%Y-%m-%d" }})</span>
+        <span style="color:#666">[{{ post.date | date: "%Y-%m-%d" }}]</span>
+        <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
-```
-> **Note:** Using `permalink: /blog/` makes the page accessible at `/blog/` (which is modern and preferred).
 
 ---
