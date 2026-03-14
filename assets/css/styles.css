@@ -63,30 +63,52 @@ main {
   margin-bottom: 0.7em;
 }
 
-/* Mobile: turn sidebar into a top header and remove the left offset */
-@media (max-width: 768px) {
+/* Mobile/tablet: turn sidebar into a top header and remove the left offset */
+/* 768px can fail on phones in landscape (CSS width can exceed 768), so use a larger breakpoint. */
+@media (max-width: 1024px) {
+  /* Turn the left sidebar into a compact top header */
   .sidebar {
     position: relative;
     width: 100%;
     min-height: auto;
-    padding: 1rem;
+    padding: 0.75rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem 1rem;
   }
 
   .sidebar-title {
-    margin-bottom: 1rem;
+    margin: 0;
+    font-size: 1.05rem;
+  }
+
+  .sidebar-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
   }
 
   .sidebar-nav a {
     display: inline-block;
-    margin: 0 1rem 0.5rem 0;
+    margin: 0;
   }
 
   .sidebar-description {
-    margin-top: 1rem;
+    flex-basis: 100%;
+    margin-top: 0.25rem;
   }
 
   main {
     margin-left: 0;
     padding: 1rem;
+  }
+}
+
+/* Extra-small phones: hide the description to save space */
+@media (max-width: 480px) {
+  .sidebar-description {
+    display: none;
   }
 }
