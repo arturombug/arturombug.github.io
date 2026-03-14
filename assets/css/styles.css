@@ -3,7 +3,6 @@ body {
   margin: 0;
   background: #f4f7fb;
   color: #17223b;
-  display: flex;
 }
 main {
   flex: 1;
@@ -11,14 +10,15 @@ main {
   margin-left: 220px;
 }
 .sidebar {
-  width: 220px;
-  background: #24305e;
-  color: #f3f3f3;
-  min-height: 100vh;
-  padding: 2rem 1rem;
-  position: fixed;
-  left: 0;
-  top: 0;
+    width: 220px;
+    background: #24305e;
+    color: #f3f3f3;
+    min-height: 100vh;
+    padding: 2rem 1rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
 }
 .sidebar h1 {
   font-size: 1.15rem;
