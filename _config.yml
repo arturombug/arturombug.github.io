@@ -1,0 +1,8 @@
+title: My PhD Journey
+description: Notes, news, and learning on my PhD journey.
+theme: null
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax
+permalink: /:categories/:year-:month-:day-:title.html
