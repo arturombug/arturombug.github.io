@@ -10,11 +10,12 @@ My research focuses on the intersection between **Control Systems** and **Free-S
 
 ---
 
-<div class="news">
+<div class="news" markdown="1">
 
-# 📰 News
-- <b> October 27th - 29th, 2025:</b> I attended the 1st Training School of the FOCAL project in Berlin, Germany.
-- <b> September 22th, 2025:</b> I started my PhD at Eindhoven University of Technology (TU/e).
+## 📰 News
+
+- <b>October 27th - 29th, 2025:</b> I attended the 1st Training School of the FOCAL project in Berlin, Germany.
+- <b>September 22th, 2025:</b> I started my PhD at Eindhoven University of Technology (TU/e).
 
 </div>
 
