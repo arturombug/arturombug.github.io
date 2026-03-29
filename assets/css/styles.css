@@ -112,3 +112,21 @@ main {
     display: none;
   }
 }
+
+.home-hero {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.home-avatar {
+  width: 20px;          /* adjust */
+  height: 20px;         /* adjust */
+  object-fit: cover;
+  border-radius: 50%;    /* circle avatar; remove if you want a square */
+  flex-shrink: 0;
+}
+
+.home-hero-text h1 {
+  margin: 0;
+}
