@@ -3,10 +3,17 @@ layout: default
 title: Home
 ---
 
-# 👨‍🔬 Arturo Morales Bugueño
-
-Hi, I'm Arturo Morales Bugueño, a PhD student at **Eindhoven University of Technology (TU/e)**.  
-My research focuses on the intersection between **Control Systems** and **Free-Space Optical Communication Systems**.
+<div class="home-hero" markdown="0">
+  <img class="home-avatar" src="{{ '/assets/img/profile_picture.jpg' | relative_url }}" alt="Photo of Arturo Morales Bugueño">
+  <div class="home-hero-text">
+    <h1>👨‍🔬 Arturo Morales Bugueño</h1>
+    <p>
+        Hi, I'm Arturo Morales Bugueño, a PhD student at <strong>Eindhoven University of Technology (TU/e)</strong> working in collaboration with <strong>TNO</strong>. 
+        I am part of the <strong>FOCAL</strong> project, short for <i><strong>F</strong>ree-Space <strong>O</strong>ptical <strong>C</strong>ommunications for <strong>A</strong>erial-Sate<strong>L</strong>lite Networks</i>, under the support of the <i>Marie Skłodowska-Curie Actions (MSCA)</i> programme.
+        My research focuses on the intersection between <strong>Control Systems</strong> and <strong>Free-Space Optical Communication Systems</strong>.
+    </p>
+  </div>
+</div>
 
 ---
 
