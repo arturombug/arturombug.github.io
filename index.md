@@ -4,7 +4,7 @@ title: Home
 ---
 
 <div class="home-hero" markdown="0">
-  <img class="home-avatar" src="{{ '/assets/img/profile_picture.jpg' | relative_url }}" alt="Photo of Arturo Morales Bugueño">
+  <!-- <img class="home-avatar" src="{{ '/assets/img/profile_picture.jpg' | relative_url }}" alt="Photo of Arturo Morales Bugueño"> -->
   <div class="home-hero-text">
     <h1>👨‍🔬 Arturo Morales Bugueño</h1>
     <p>
